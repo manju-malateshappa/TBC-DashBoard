@@ -1,6 +1,6 @@
 import webpack from 'webpack';
 import path from 'path';
-
+process.traceDeprecation = true;
 export default {
   debug: true,
   devtool: 'inline-source-map',
