@@ -9,8 +9,8 @@ import ActivitiesPage from './components/activities/ActivitiesPage';
 export default (
     <Route path="/" component={App}>
         <IndexRoute component={HomePage} />
-        <Route path="about" Component={AboutPage} />
-        <Route path="courses" Component={CoursesPage} />
-        <Route path="activities" Component={ActivitiesPage} />
+        <Route path="about" component={AboutPage} />
+        <Route path="courses" component={CoursesPage} />
+        <Route path="activities" component={ActivitiesPage} />
     </Route>
 );
